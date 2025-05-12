@@ -8,7 +8,7 @@ The goal of this project is to facilitate the transformation of existing robot d
 
 ## Contents
 
-- `convert_to_lerobot_format.ipynb`: A notebook that walks you through the steps to convert your dataset into the required LeRobot format.
+- `save_data_clean.ipynb`: A notebook that walks you through the steps to convert your dataset into the required LeRobot format.
 
 ## Requirements
 
@@ -20,3 +20,11 @@ cd lerobot
 pip install -e .
 ```
 
+## Example Output
+
+A sample converted dataset is available on Hugging Face:
+
+Dataset: `chengkunli/green_cup_pour`
+
+## Visualization: 
+You can preview and inspect the dataset using the LeRobot visualizer: [lerobot/visualize_dataset](https://huggingface.co/spaces/lerobot/visualize_dataset?path=%2Fchengkunli%2Fgreen_cup_pour%2Fepisode_1)
